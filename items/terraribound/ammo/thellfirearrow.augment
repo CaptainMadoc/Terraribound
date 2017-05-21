@@ -1,0 +1,23 @@
+{
+	"itemName" : "thellfirearrow",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 999,
+	"inventoryIcon" : "/items/terraribound/sprite/shells/terrariboundhellfirearrowammo.png",
+	"description" : "WARNING: Permanently Destroys Potential Booty",
+	"shortdescription" : "Hellfire Arrow",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["terrariboundhellfirearrow" , "terrariboundarrow" ],
+		"projectileConfig" 	: {"speed" : 200, "power" : 100, "actionOnReap" : [
+			{
+				"action" : "config",
+				"file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+			}
+		]},
+		"projectileType" 	: "terrariboundhellfirearrow"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

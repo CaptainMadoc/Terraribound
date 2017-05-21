@@ -1,0 +1,12 @@
+{
+	"name" : "Diablobound",
+	"version" : "Alpha X",
+	"path" : ".",
+	"dependencies" : [],
+	"metadata" : {
+		"displayName" : "Diablobound",
+		"author" : "Joshua Madoc",
+		"description" : "Shtay awhile and lishten!",
+		"version" : "Alpha 1"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"itemName" : "tarrow",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 999,
+	"inventoryIcon" : "/items/terraribound/sprite/shells/terrariboundarrowammo.png",
+	"description" : "",
+	"shortdescription" : "Arrow",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["tarrow" , "tarrow" ],
+		"projectileConfig" 	: {"speed" : 75},
+		"projectileType" 	: "terrariboundarrow"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

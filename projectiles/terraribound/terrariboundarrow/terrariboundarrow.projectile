@@ -1,0 +1,28 @@
+{
+  "projectileName" : "terrariboundarrow",
+  "image" : "terrariboundarrow.png",
+  "animationCycle" : 0.25,
+  "physics" : "terrariboundphysicsarrow",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/terraribound/terraribounddamage.ogg"
+      ]
+    }
+  ],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 50,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "terrariboundgeneral",
+  "emitters" : [ "daggerblue" ]
+}
+
+

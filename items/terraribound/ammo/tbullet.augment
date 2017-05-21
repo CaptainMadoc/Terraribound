@@ -1,0 +1,18 @@
+{
+	"itemName" : "tbullet",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 999,
+	"inventoryIcon" : "/items/terraribound/sprite/shells/terrariboundbulletammo.png",
+	"description" : "",
+	"shortdescription" : "Bullet",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["tbullet" , "tbullet" ],
+		"projectileConfig" 	: {"speed" : 100},
+		"projectileType" 	: "terrariboundbullet"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}
