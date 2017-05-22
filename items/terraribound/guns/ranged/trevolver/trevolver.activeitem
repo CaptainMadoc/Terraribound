@@ -1,15 +1,15 @@
 {
-	"itemName" : "tphoenixblaster",
+	"itemName" : "trevolver",
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
 	"category" : "Ranged : Bullets",
-	"description" : "'Aw, crap.'",
-	"shortdescription" : "Phoenix Blaster",
+	"description" : "'RELOAD!!'",
+	"shortdescription" : "Revolver",
 	"tooltipKind" : "base",
 	"twoHanded" : false,
 	
-	"inventoryIcon" : "/items/terraribound/sprite/guns/ranged/tphoenixblaster.png",
+	"inventoryIcon" : "/items/terraribound/sprite/guns/ranged/trevolver.png",
 	
 	"animation" : "gunsprite.animation",
 	"animationParts" : { },
@@ -44,15 +44,15 @@
 	
 	//The higher, The more harder to control
 	"gunConfig" : {	
-		"inaccuracy" 		: 5, 					//Your random number generator
+		"inaccuracy" 		: 2, 					//Your random number generator
 		"compatibleAmmo" 	: ["tbullet" , "tbullet" ],
-		"projectileConfig" 	: {"speed" : 95, "power" : 23},
-		"projectileType" 	: "terrariboundphoenixblasterbullet",
+		"projectileConfig" 	: {"speed" : 85, "power" : 22},
+		"projectileType" 	: "terrariboundbullet",
 		"smokeEffect" 		: true,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [2.95,0.17],			//the projectile pos
+		"fireOffset" 		: [2.45,0.51],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.2,					//atataatatatatata
+		"fireSpeed" 		: 0.15,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "semi", 				//auto, burst, semi
 		"burstAmount" 		: 5,

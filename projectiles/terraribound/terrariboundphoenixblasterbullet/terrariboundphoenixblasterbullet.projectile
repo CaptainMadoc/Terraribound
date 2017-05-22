@@ -1,6 +1,6 @@
 {
-  "projectileName" : "terrariboundbullet",
-  "image" : "terrariboundbullet.png",
+  "projectileName" : "terrariboundphoenixblasterbullet",
+  "image" : "terrariboundphoenixblasterbullet.png",
   "lightColor" : [255, 100, 26],
   "fullbright" : true,
   "animationCycle" : 0.25,
@@ -13,6 +13,7 @@
     }
   ],
   "frameNumber" : 1,
+  "emitters" : [ "tphoenixblastertrail" ],
   "pointLight" : false,
   "speed" : 50,
   "actionOnReap" : [
@@ -22,8 +23,7 @@
     }
   ],
   "power" : 200.0,
-  "damageKind" : "terrariboundgeneral",
-  "emitters" : [ "tbullettrail" ]
+  "damageKind" : "terrariboundgeneral"
 }
 
 

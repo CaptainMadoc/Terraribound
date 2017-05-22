@@ -37,7 +37,7 @@
 					"firing" : {
 						"fire" : {
 							"properties" : {
-								"image" : "/animations/muzzleflash/tphoenixblasterflash/tphoenixblasterflash.png"
+								"image" : "/animations/muzzleflash/trevolverflash/trevolverflash.png"
 							}
 						},
 						"off" : {
@@ -50,7 +50,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : true,
-					"offset" : [0.76, 0.19],
+					"offset" : [0.38, 0.19],
 					"transformationGroups" : ["gun"]
 				},
 		
@@ -58,7 +58,7 @@
 					"gun" : {
 						"default" : {
 							"properties" : {
-								"image" : "/items/terraribound/sprite/guns/ranged/tphoenixblaster.png"
+								"image" : "/items/terraribound/sprite/guns/ranged/trevolver.png"
 							}
 						}
 					}
@@ -68,7 +68,7 @@
 	},
 	
 	"sounds" : {
-		"fire" : ["/sfx/terraribound/weapon/tphoenixblaster.ogg"],
+		"fire" : ["/sfx/terraribound/weapon/trevolver.ogg"],
 		"dry" : ["/sfx/objects/hiddenswitch1.ogg"]
 	},
 	
