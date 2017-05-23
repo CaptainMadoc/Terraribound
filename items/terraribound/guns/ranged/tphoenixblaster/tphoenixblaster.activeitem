@@ -52,9 +52,9 @@
 		"shellEffect" 		: false,
 		"fireOffset" 		: [2.95,0.17],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.2,					//atataatatatatata
+		"fireSpeed" 		: 0.15,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
-		"fireMode" 			: "semi", 				//auto, burst, semi
+		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,
 		"burstCooldown" 	: 1.8,
 		"recoilPower" 		: 20,					//The higher, The more harder to control

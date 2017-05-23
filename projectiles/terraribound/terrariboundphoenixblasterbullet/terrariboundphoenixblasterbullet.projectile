@@ -3,6 +3,7 @@
   "image" : "terrariboundphoenixblasterbullet.png",
   "lightColor" : [255, 100, 26],
   "fullbright" : true,
+  "piercing" : true,
   "animationCycle" : 0.25,
   "actionOnCollide" : [
     {

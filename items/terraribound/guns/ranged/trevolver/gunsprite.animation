@@ -68,7 +68,7 @@
 	},
 	
 	"sounds" : {
-		"fire" : ["/sfx/terraribound/weapon/trevolver.ogg"],
+		"fire" : ["/sfx/terraribound/weapon/trevolver2.ogg"],
 		"dry" : ["/sfx/objects/hiddenswitch1.ogg"]
 	},
 	
