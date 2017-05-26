@@ -1,0 +1,7 @@
+{
+  "frames" : "tspacegunbeamtrail.png",
+  "variants" : 1,
+  "frameNumber" : 12,
+  "animationCycle" : 0.10,
+  "offset" : [0, 0]
+}

@@ -1,21 +1,18 @@
 {
-	"itemName" : "tphoenixblaster",
+	"itemName" : "tspacegun",
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
-	"category" : "Ranged : Bullets",
-	"description" : "'Aw, crap.'",
-	"shortdescription" : "Phoenix Blaster",
+	"category" : "Ranged : Processed Ore",
+	"description" : "",
+	"shortdescription" : "Space Gun",
 	"tooltipKind" : "base",
 	"twoHanded" : false,
 	
-	"inventoryIcon" : "/items/terraribound/sprite/guns/ranged/tphoenixblaster.png",
+	"inventoryIcon" : "/items/terraribound/sprite/guns/ranged/tspacegun.png",
 	
 	"animation" : "gunsprite.animation",
-	"animationParts" : { 
-	  "middle" : "energyassault.png",
-      "middlefullbright" : "tphoenixblasterfullbright.png"
-	},
+	"animationParts" : { },
 	"animationCustom" : { },
 	"animationKey" : {				//animationtracks etc
 		"key" : 1,
@@ -47,20 +44,20 @@
 	
 	//The higher, The more harder to control
 	"gunConfig" : {	
-		"inaccuracy" 		: 5, 					//Your random number generator
-		"compatibleAmmo" 	: ["tbullet" , "tbullet" ],
-		"projectileConfig" 	: {"speed" : 95, "power" : 23},
-		"projectileType" 	: "terrariboundphoenixblasterbullet",
+		"inaccuracy" 		: 1, 					//Your random number generator
+		"compatibleAmmo" 	: ["tspacegunoreiron" , "tspacegunoreiron" ],
+		"projectileConfig" 	: {"speed" : 120, "power" : 11},
+		"projectileType" 	: "terrariboundspacegunbeam",
 		"smokeEffect" 		: true,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [2.95,0.17],			//the projectile pos
+		"fireOffset" 		: [3.15,0.51],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.15,					//atataatatatatata
+		"fireSpeed" 		: 0.4,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,
 		"burstCooldown" 	: 1.8,
-		"recoilPower" 		: 20,					//The higher, The more harder to control
+		"recoilPower" 		: 1,					//The higher, The more harder to control
 		"recoilRecovery" 	: 1, 					//Higher the slower
 		"magazineMax" 		: 1,
 		"magazineCurrent"	: 0,

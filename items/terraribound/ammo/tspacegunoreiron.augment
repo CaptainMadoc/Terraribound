@@ -1,0 +1,18 @@
+{
+	"itemName" : "tspacegunoreiron",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 999,
+	"inventoryIcon" : "/items/terraribound/sprite/shells/tspacegunoreiron.png",
+	"description" : "",
+	"shortdescription" : "Processed Iron Ore",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["tspacegunoreiron" , "tspacegunoreiron" ],
+		"projectileConfig" 	: {"speed" : 100},
+		"projectileType" 	: "terrariboundspacegunbeam"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

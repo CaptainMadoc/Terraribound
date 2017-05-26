@@ -1,11 +1,11 @@
 {
-  "itemName" : "NinjaRedHead",
+  "itemName" : "tmeteoritehead",
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
-  "description" : "",
-  "shortdescription" : "NinjaRed Helmet",
+  "description" : "I am the child of the Moon!",
+  "shortdescription" : "Meteorite Helmet",
   "inspectionKind" : "armor",
 
   "maleFrames" : "head.png",

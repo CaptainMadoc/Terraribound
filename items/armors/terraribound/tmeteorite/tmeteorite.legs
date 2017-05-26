@@ -1,24 +1,15 @@
 {
-  "itemName" : "NinjaRedChest",
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "tmeteoritelegs",
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "chestarmour",
-  "description" : "",
-  "shortdescription" : "NinjaRed Chest",
+  "category" : "legarmour",
+  "description" : "I am the child of the Moon!",
+  "shortdescription" : "Meteorite Legplates",
   "inspectionKind" : "armor",
 
-  "maleFrames" : {
-    "body" : "chestm.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
 
   "statusEffects" : [
     {
@@ -28,7 +19,7 @@
   ],
 
   "colorOptions" : [
-  	/* RED */
+    /* RED */
     { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
     /* BLUE */
     { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
