@@ -1,0 +1,29 @@
+{
+  "projectileName" : "terrariboundsniperbullet",
+  "image" : "terrariboundsniperbullet.png",
+  "lightColor" : [255, 100, 26],
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/terraribound/terraribounddamage.ogg"
+      ]
+    }
+  ],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 50,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "terrariboundgeneral",
+  "emitters" : [ "tbullettrail" ]
+}
+
+

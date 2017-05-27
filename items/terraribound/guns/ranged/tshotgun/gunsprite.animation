@@ -37,7 +37,7 @@
 					"firing" : {
 						"fire" : {
 							"properties" : {
-								"image" : "/animations/muzzleflash/tsniperrifleflash/tsniperrifleflash.png"
+								"image" : "/animations/muzzleflash/thandgunflash/thandgunflash.png"
 							}
 						},
 						"off" : {
@@ -50,7 +50,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : true,
-					"offset" : [1.50, 0.32],
+					"offset" : [1.06, 0.14],
 					"transformationGroups" : ["gun"]
 				},
 		
@@ -58,7 +58,7 @@
 					"gun" : {
 						"default" : {
 							"properties" : {
-								"image" : "/items/terraribound/sprite/guns/ranged/tsniperrifle.png"
+								"image" : "/items/terraribound/sprite/guns/ranged/tshotgun.png"
 							}
 						}
 					}
@@ -68,7 +68,7 @@
 	},
 	
 	"sounds" : {
-		"fire" : ["/sfx/terraribound/weapon/tsniperrifle.ogg"],
+		"fire" : ["/sfx/terraribound/weapon/tshotgun.ogg"],
 		"dry" : ["/sfx/objects/hiddenswitch1.ogg"]
 	},
 	
