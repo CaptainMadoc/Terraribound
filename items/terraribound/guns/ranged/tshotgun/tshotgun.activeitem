@@ -87,10 +87,10 @@
 		"inaccuracy" 		: 0, 					//Your random number generator
 		"compatibleAmmo" 	: ["tbullet" , "tbullet" ],
 		"projectileConfig" 	: {"speed" : 100, "power" : 185},
-		"projectileType" 	: "terrariboundsniperbullet",
+		"projectileType" 	: "terrariboundbulletshotgun",
 		"smokeEffect" 		: true,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [3.75,0.63],			//the projectile pos
+		"fireOffset" 		: [3.55,0.63],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
 		"fireSpeed" 		: 0.9,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation

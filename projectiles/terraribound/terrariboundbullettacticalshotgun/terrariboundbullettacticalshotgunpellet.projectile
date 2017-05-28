@@ -1,0 +1,22 @@
+{
+  "projectileName" : "terrariboundbullettacticalshotgunpellet",
+  "image" : "terrariboundbullettacticalshotgunpellet.png",
+  "lightColor" : [255, 100, 26],
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 50,
+  "power" : 5.0,
+  "timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/tbulletexplosion/tbulletexplosion.config"
+    }
+  ],
+  "damageKind" : "terrariboundgeneral",
+  "emitters" : [ "tbullettrail" ]
+}
+
+
