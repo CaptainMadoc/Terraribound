@@ -69,6 +69,7 @@ end
 function uninit()
 	if self.gunConfig.magazineMax then
 		activeItem.setInstanceValue("gunConfig",self.gunConfig)
+		world.sendEntityMessage(activeItem.ownerEntityId(),"removeBar",config.getParameter("itemName")..self.barUUID)
 	end
 end
 
@@ -94,6 +95,15 @@ function update(dt, fireMode, shiftHeld, moves)
 		smoke = smoke - dt
 		if smoke < 1.5 and self.gunConfig.smokeEffect then
 			animator.burstParticleEmitter("smoke")
+		end
+	end
+	
+	if self.gunConfig.magazineMax then
+		if not self.reloading then
+			local percent = self.gunConfig.magazineCurrent/self.gunConfig.magazineMax
+			world.sendEntityMessage(activeItem.ownerEntityId(),"setBar",config.getParameter("itemName")..self.barUUID,percent,{255-math.ceil(255*percent),127+math.ceil(128*percent),0,255})
+		else
+			world.sendEntityMessage(activeItem.ownerEntityId(),"setBar",config.getParameter("itemName")..self.barUUID,1-cooldown/self.gunConfig.reloadCooldown,{255,128,0,255})
 		end
 	end
 	

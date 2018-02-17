@@ -67,5 +67,5 @@
 		"reloadCooldown" 	: 0
 	},
 	
-	"scripts" : ["/items/diablobound/main.lua"]
+	"scripts" : ["/items/terraribound/main.lua"]
 }
